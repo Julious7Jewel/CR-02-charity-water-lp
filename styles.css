@@ -1,19 +1,78 @@
-/* charity: water Brand Colors & Fonts
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-Primary Colors:
-- Yellow:     #FFC907
-- Blue:       #2E9DF7
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
 
-Secondary Colors:
-- Light Blue: #8BD1CB
-- Green:      #4FCB53
-- Orange:     #FF902A
-- Red:        #F5402C
-- Dark Green: #159A48
-- Pink:       #F16061
+.container {
+  width: 90%;
+  max-width: 600px; /* Keep it simple and not too wide */
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 10px;
+}
 
-Fonts:
-- Proxima Nova
-- Avenir
+.hero {
+  background: #f9f9f9;
+  padding: 40px 10px;
+}
 
-*/
+.hero h1 {
+  font-size: 2rem;
+  color: #222;
+  margin: 20px 0 15px 0;
+}
+
+.subheading {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+}
+
+.impact h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.impact-image {
+  width: 200px; /* Match the width used in HTML */
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.footer img {
+  margin-bottom: 10px;
+}
